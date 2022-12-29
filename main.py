@@ -1,5 +1,6 @@
-import os
-my_secret = os.environ['emu-magic']
+"""
+    it's a game
+"""
 
 cultures = ['chinese', 'egyptian', 'test']
 personalitymad = ['pretty pleas type a choice', 'type one or il stop the program', 'now I realy will', 'error', '[computer fizzles]', 'I exploded'
@@ -194,4 +195,4 @@ while not win:
         spend(int(tk[1]))
         provice = tk[3]
     else:
-        print('invalid syntax')
+        print('ERROR: invalid syntax')
