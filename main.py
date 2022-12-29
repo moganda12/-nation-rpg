@@ -2,6 +2,10 @@
     it's a game
 """
 
+import pygame
+
+pygame.init()
+
 cultures = ['chinese', 'egyptian', 'test']
 personalitymad = ['pretty pleas type a choice', 'type one or il stop the program', 'now I realy will', 'error', '[computer fizzles]', 'I exploded'
 ]
@@ -184,7 +188,7 @@ while not win:
     if tk[0] == 'end':
         quit()
     if tk[0] == 'save':
-        print('initializatoin data save protocal')
+        print('initialization data save protocol')
         save = curr + econ + culture
         print(save)
     if tk[0] == 'endturn':
