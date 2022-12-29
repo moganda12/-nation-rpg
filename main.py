@@ -7,8 +7,8 @@ import pygame
 pygame.init()
 
 cultures = ['chinese', 'egyptian', 'test']
-personalitymad = ['pretty pleas type a choice', 'type one or il stop the program', 'now I realy will', 'error', '[computer fizzles]', 'I exploded'
-]
+personalitymad = ['pretty pleas type a choice', 'type one or il stop the program', 
+'now I really will', 'error', '[computer fizzles]', 'I exploded']
 claims = None
 mad = 0
 win = False
